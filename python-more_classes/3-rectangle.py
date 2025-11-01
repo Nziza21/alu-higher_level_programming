@@ -1,6 +1,10 @@
 #!/usr/bin/python3
-"""Defines a Rectangle class with string representation, area, and perimeter."""
+"""Defines a Rectangle class with string representation, area, and
+perimeter."""
 
+
+class Rectangle:
+    """Represents a rectangle with width and height."""
 
     def __init__(self, width=0, height=0):
         """Initialize a Rectangle instance with optional width and height."""
@@ -41,7 +45,6 @@
 
     def perimeter(self):
         """Return the perimeter of the rectangle.
-
         Returns 0 if width or height is 0.
         """
         if self.__width == 0 or self.__height == 0:
@@ -52,8 +55,7 @@
         """Return the rectangle as a string using '#' characters."""
         if self.__width == 0 or self.__height == 0:
             return ""
-        lines = ['#' * self.__width for _ in range(self.__height)]
-        return '\n'.join(lines)
+        return '\n'.join(['#' * self.__width for _ in range(self.__height)])
 
     def __repr__(self):
         """Return an official string representation including module name."""
