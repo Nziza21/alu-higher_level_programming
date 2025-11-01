@@ -56,4 +56,3 @@ class SinglyLinkedList:
             values.append(str(current.data))
             current = current.next_node
         return "\n".join(values)
-
