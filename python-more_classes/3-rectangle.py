@@ -2,9 +2,6 @@
 """Defines a Rectangle class with string representation, area, and perimeter."""
 
 
-class Rectangle:
-    """Represents a rectangle with width and height."""
-
     def __init__(self, width=0, height=0):
         """Initialize a Rectangle instance with optional width and height."""
         self.width = width
