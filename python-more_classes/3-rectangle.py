@@ -59,5 +59,5 @@ class Rectangle:
         return '\n'.join(lines)
 
     def __repr__(self):
-        """Return an “official” string representation of the rectangle."""
-        return f"<{type(self).__name__} object at {hex(id(self))}>"
+        """Return an official string representation including module name."""
+        return f"<3-rectangle.{type(self).__name__} object at {hex(id(self))}>"
