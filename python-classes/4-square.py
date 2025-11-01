@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Defines a class Square with size validation, area computation, and property access."""
+"""Defines a class Square with size validation, area computation, and
+property access."""
 
 
 class Square:
